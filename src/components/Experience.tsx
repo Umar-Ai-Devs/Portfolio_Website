@@ -7,6 +7,13 @@ import { SectionTitle } from "./SectionTitle";
 
 const timeline = [
   {
+    year: "2024 – 2025",
+    title: "Certified Agentic & Robotic AI Engineer",
+    institution: "PIAIC – National Textile University, Faisalabad",
+    description:
+      "Completed a 3-month intensive program covering Python fundamentals, AI basics, and agent-based AI systems.",
+  },
+  {
     year: "2025",
     title: "Generative AI Training Program (6 Months)",
     institution: "Tecrix",
