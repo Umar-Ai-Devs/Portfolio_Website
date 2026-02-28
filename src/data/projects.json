@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Smart Diabetes Tracker",
+    "description": "End-to-end diabetes tracking with Python and SQLite: glucose tracking, BMI, diet logs, and health insights. OOP, data validation, and reliability built in.",
+    "icon": "Activity",
+    "tags": ["Python", "SQLite", "OOP", "Health Tech"],
+    "liveUrl": "#",
+    "githubUrl": "#",
+    "gradient": "from-cyan-500/20 to-blue-600/20",
+    "borderGlow": "group-hover:shadow-[0_0_30px_rgba(34,211,238,0.25)]"
+  },
+  {
+    "title": "RAG Chatbot",
+    "description": "Retrieval-Augmented Generation chatbot using embeddings, vector search, and LLMs for accurate, context-aware answers from external knowledge bases.",
+    "icon": "Bot",
+    "tags": ["RAG", "LangChain", "Vector DB", "LLMs"],
+    "liveUrl": "#",
+    "githubUrl": "#",
+    "gradient": "from-purple-500/20 to-pink-600/20",
+    "borderGlow": "group-hover:shadow-[0_0_30px_rgba(168,85,247,0.25)]"
+  },
+  {
+    "title": "Generative AI Tools Suite",
+    "description": "Suite of GenAI tools for text generation, Q&A, and workflow automation. Custom data pipelines and visualizations with Seaborn and Matplotlib.",
+    "icon": "Brain",
+    "tags": ["GenAI", "NLP", "Automation", "Data Viz"],
+    "liveUrl": "#",
+    "githubUrl": "#",
+    "gradient": "from-blue-500/20 to-cyan-600/20",
+    "borderGlow": "group-hover:shadow-[0_0_30px_rgba(59,130,246,0.25)]"
+  }
+]
