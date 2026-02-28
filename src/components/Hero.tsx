@@ -94,6 +94,9 @@ export function Hero() {
             </Link>
             <a
               href="/resume.pdf"
+              download="Muhammad_Umar_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="group inline-flex items-center gap-2 px-8 py-4 rounded-xl glass-card border border-slate-200/60 dark:border-white/10 text-slate-800 dark:text-slate-200 font-medium hover:border-cyan-500/30 hover:shadow-[0_0_20px_rgba(34,211,238,0.15)] transition-all duration-300"
             >
               Download Resume
