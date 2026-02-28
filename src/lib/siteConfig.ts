@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "Muhammad Umar",
-  brandPrimary: "Umar",
-  brandSuffix: ".AI",
+  brandPrimary: "Umar-Ai",
+  brandSuffix: "-Devs",
   heroTagline:
     "Hi, I'm Muhammad Umar — AI & Python Developer. Generative AI, RAG, LLMs & scalable backends.",
   contact: {
