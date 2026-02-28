@@ -11,7 +11,7 @@ export const siteConfig = {
   },
   social: {
     github: "https://github.com/umar-ai-devs",
-    linkedin: "https://www.linkedin.com/in/umar-ai-devs",
+    linkedin: "www.linkedin.com/in/umar-ai-devs-",
     email: "mailto:umaraidevs@gmail.com",
   },
   footer: {
