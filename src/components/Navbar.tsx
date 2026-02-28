@@ -40,8 +40,7 @@ export function Navbar() {
             duration={500}
             className="font-bold text-xl tracking-tight cursor-pointer"
           >
-            <span className="text-gradient">Umar</span>
-            <span className="text-slate-900 dark:text-slate-100">.AI</span>
+            <span className="text-gradient">Umar-Ai-Devs</span>
           </Link>
 
           <div className="hidden md:flex items-center gap-8">
