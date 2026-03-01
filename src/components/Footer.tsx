@@ -63,7 +63,6 @@ export function Footer() {
             © {new Date().getFullYear()} {siteConfig.footer.copyrightOwner}. All rights reserved.
           </p>
           <p className="text-sm text-slate-700 dark:text-slate-200">
-            Built with Next.js, Tailwind & Framer Motion
           </p>
         </div>
       </div>

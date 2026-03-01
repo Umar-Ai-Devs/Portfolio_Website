@@ -4,8 +4,8 @@
     "description": "End-to-end diabetes tracking with Python and SQLite: glucose tracking, BMI, diet logs, and health insights. OOP, data validation, and reliability built in.",
     "icon": "Activity",
     "tags": ["Python", "SQLite", "OOP", "Health Tech"],
-    "liveUrl": "#",
-    "githubUrl": "#",
+    "liveUrl": "https://github.com/Umar-Ai-Devs/Smart_diabetes_tracker",
+    "githubUrl": "https://github.com/Umar-Ai-Devs/Smart_diabetes_tracker",
     "gradient": "from-cyan-500/20 to-blue-600/20",
     "borderGlow": "group-hover:shadow-[0_0_30px_rgba(34,211,238,0.25)]"
   },
