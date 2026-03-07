@@ -1,5 +1,15 @@
 [
   {
+    "title": "Student Management System",
+    "description": "Full-stack web application for managing students, teachers, and attendance. Features secure JWT authentication, CRUD operations, and a responsive UI with Flask backend and Next.js frontend.",
+    "icon": "Bot",
+    "tags": ["Flask", "Next.js", "MySQL", "JWT", "Tailwind CSS", "TypeScript"],
+    "liveUrl": "https://student-management-system-f.vercel.app/",
+    "githubUrl": "https://github.com/Umar-Ai-Devs/student_management_system_",
+    "gradient": "from-emerald-500/20 to-teal-600/20",
+    "borderGlow": "group-hover:shadow-[0_0_30px_rgba(16,185,129,0.25)]"
+  },
+  {
     "title": "Smart Diabetes Tracker",
     "description": "End-to-end diabetes tracking with Python and SQLite: glucose tracking, BMI, diet logs, and health insights. OOP, data validation, and reliability built in.",
     "icon": "Activity",
@@ -8,16 +18,6 @@
     "githubUrl": "https://github.com/Umar-Ai-Devs/Smart_diabetes_tracker",
     "gradient": "from-cyan-500/20 to-blue-600/20",
     "borderGlow": "group-hover:shadow-[0_0_30px_rgba(34,211,238,0.25)]"
-  },
-  {
-    "title": "RAG Chatbot",
-    "description": "Retrieval-Augmented Generation chatbot using embeddings, vector search, and LLMs for accurate, context-aware answers from external knowledge bases.",
-    "icon": "Bot",
-    "tags": ["RAG", "LangChain", "Vector DB", "LLMs"],
-    "liveUrl": "#",
-    "githubUrl": "#",
-    "gradient": "from-purple-500/20 to-pink-600/20",
-    "borderGlow": "group-hover:shadow-[0_0_30px_rgba(168,85,247,0.25)]"
   },
   {
     "title": "Generative AI Tools Suite",
