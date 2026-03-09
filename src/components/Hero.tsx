@@ -93,7 +93,7 @@ export function Hero() {
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
             <a
-              href="/resume.pdf"
+              href="Muhammad Umar Resume.pdf"
               download="Muhammad_Umar_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
