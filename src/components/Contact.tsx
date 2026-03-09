@@ -37,7 +37,7 @@ export function Contact() {
 
   return (
     <section id="contact" className="py-24 relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-slate-200/50 dark:via-slate-900/20 to-cyan-100/30 dark:to-cyan-950/10 pointer-events-none" />
+      <div className="absolute inset-0 bg-grid-pattern opacity-40 pointer-events-none" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <SectionTitle
           title="Get In"
@@ -81,7 +81,7 @@ export function Contact() {
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-slate-600 dark:text-slate-200 mb-2">
+                  <label htmlFor="name" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">
                     Name
                   </label>
                   <input
@@ -94,7 +94,7 @@ export function Contact() {
                   />
                 </div>
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-slate-600 dark:text-slate-200 mb-2">
+                  <label htmlFor="email" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">
                     Email
                   </label>
                   <input
@@ -108,7 +108,7 @@ export function Contact() {
                 </div>
               </div>
               <div>
-                <label htmlFor="subject" className="block text-sm font-medium text-slate-600 dark:text-slate-200 mb-2">
+                <label htmlFor="subject" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">
                   Subject
                 </label>
                 <input
@@ -121,7 +121,7 @@ export function Contact() {
                 />
               </div>
               <div>
-                <label htmlFor="message" className="block text-sm font-medium text-slate-600 dark:text-slate-200 mb-2">
+                <label htmlFor="message" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">
                   Message
                 </label>
                 <textarea

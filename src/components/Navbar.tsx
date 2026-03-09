@@ -5,6 +5,7 @@ import { Link } from "react-scroll";
 import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { ThemeToggle } from "./ThemeToggle";
 
 const navItems = [
   { name: "Home", to: "home" },
@@ -50,7 +51,7 @@ export function Navbar() {
                 to={item.to}
                 smooth
                 duration={500}
-                className="relative text-sm font-medium text-slate-700 dark:text-slate-200 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors cursor-pointer group py-2"
+                className="relative text-sm font-medium text-dark-mode hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors cursor-pointer group py-2"
               >
                 {item.name}
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-cyan-400 to-blue-500 transition-all duration-300 group-hover:w-full" />
@@ -58,10 +59,11 @@ export function Navbar() {
             ))}
           </div>
 
-          <div className="md:hidden flex items-center gap-2">
+          <div className="flex items-center gap-2">
+            <ThemeToggle />
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="p-2 rounded-lg text-slate-700 hover:text-cyan-600 hover:bg-slate-200 transition-colors"
+              className="md:hidden p-2 rounded-lg text-slate-700 dark:text-slate-200 hover:text-cyan-600 dark:hover:text-cyan-400 hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors"
               aria-label="Toggle menu"
             >
               {isOpen ? <X size={22} /> : <Menu size={22} />}
@@ -87,7 +89,7 @@ export function Navbar() {
                   smooth
                   duration={500}
                   onClick={() => setIsOpen(false)}
-                  className="block px-4 py-3 rounded-xl text-slate-700 dark:text-slate-200 hover:text-cyan-600 dark:hover:text-cyan-400 hover:bg-slate-100 dark:hover:bg-slate-800/80 transition-colors cursor-pointer"
+                  className="block px-4 py-3 rounded-xl text-dark-mode hover:text-cyan-600 dark:hover:text-cyan-400 hover:bg-slate-100 dark:hover:bg-slate-800/80 transition-colors cursor-pointer"
                 >
                   {item.name}
                 </Link>

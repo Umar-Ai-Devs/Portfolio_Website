@@ -56,7 +56,7 @@ export function Hero() {
                 return (
                   <motion.span
                     key={i}
-                    className={isHighlight ? "inline-block mr-[0.25em] text-gradient" : "inline-block mr-[0.25em] text-slate-900 dark:text-white"}
+                    className={isHighlight ? "inline-block mr-[0.25em] text-gradient" : "inline-block mr-[0.25em] hero-text-dark"}
                     variants={{
                       hidden: { opacity: 0, y: 40 },
                       visible: { opacity: 1, y: 0 },
@@ -74,7 +74,7 @@ export function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6, duration: 0.5 }}
-            className="text-lg md:text-xl text-slate-600 dark:text-slate-200 max-w-2xl mx-auto"
+            className="text-lg md:text-xl text-dark-mode max-w-2xl mx-auto"
           >
             {siteConfig.heroTagline}
           </motion.p>
@@ -97,7 +97,7 @@ export function Hero() {
               download="Muhammad_Umar_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="group inline-flex items-center gap-2 px-8 py-4 rounded-xl glass-card border border-slate-200/60 dark:border-white/10 text-slate-800 dark:text-slate-200 font-medium hover:border-cyan-500/30 hover:shadow-[0_0_20px_rgba(34,211,238,0.15)] transition-all duration-300"
+              className="group inline-flex items-center gap-2 px-8 py-4 rounded-xl glass-card border border-slate-200/60 dark:border-white/10 text-slate-800 dark:text-white font-medium hover:border-cyan-500/30 hover:shadow-[0_0_20px_rgba(34,211,238,0.15)] transition-all duration-300"
             >
               Download Resume
               <Download className="w-5 h-5 group-hover:translate-y-0.5 transition-transform" />
@@ -150,7 +150,7 @@ function SocialLink({
       target="_blank"
       rel="noopener noreferrer"
       aria-label={label}
-      className="p-3 rounded-xl glass-card border border-slate-200/50 dark:border-white/10 text-slate-600 dark:text-slate-200 hover:text-cyan-600 dark:hover:text-cyan-400 hover:border-cyan-500/30 hover:shadow-[0_0_20px_rgba(34,211,238,0.2)] hover:scale-105 transition-all duration-300"
+      className="p-3 rounded-xl glass-card border border-slate-200/50 dark:border-white/10 text-slate-600 dark:text-slate-300 hover:text-cyan-600 dark:hover:text-cyan-400 hover:border-cyan-500/30 hover:shadow-[0_0_20px_rgba(34,211,238,0.2)] hover:scale-105 transition-all duration-300"
     >
       {icon}
     </a>

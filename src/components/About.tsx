@@ -42,7 +42,7 @@ export function About() {
             className="flex flex-col justify-center"
           >
             <div className="glass-card rounded-2xl p-8 md:p-10 border border-slate-200/60 dark:border-white/10">
-              <p className="text-lg md:text-xl text-slate-600 dark:text-white leading-relaxed">
+              <p className="text-lg md:text-xl text-slate-600 dark:text-slate-300 leading-relaxed">
                 I&apos;m a passionate <span className="text-cyan-600 dark:text-cyan-400 font-medium">AI & Python Developer</span> focused on
                 building intelligent systems. With a strong foundation in Machine Learning and Backend Development, I work on
                 RAG pipelines, LLM integrations, and production-ready APIs — always with clean code and scalability in mind.

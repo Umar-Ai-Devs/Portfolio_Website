@@ -67,7 +67,7 @@ export function Experience() {
                     <MapPin className="w-3.5 h-3.5" />
                     {item.institution}
                   </p>
-                  <p className="text-slate-600 dark:text-slate-200 text-sm leading-relaxed">{item.description}</p>
+                  <p className="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">{item.description}</p>
                 </div>
               </div>
             </motion.div>

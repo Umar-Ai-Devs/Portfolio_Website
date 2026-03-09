@@ -21,7 +21,7 @@ const projects = projectsData.map((p) => ({
 
 export function Projects() {
   return (
-    <section id="projects" className="py-24 relative overflow-hidden bg-slate-100/80 dark:bg-slate-950/50">
+    <section id="projects" className="py-24 relative overflow-hidden">
       <div className="absolute inset-0 bg-grid-pattern opacity-40 pointer-events-none" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <SectionTitle
@@ -71,14 +71,14 @@ export function Projects() {
                   <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-2 group-hover:text-cyan-600 dark:group-hover:text-cyan-400/90 transition-colors">
                     {project.title}
                   </h3>
-                  <p className="text-slate-600 dark:text-slate-200 text-sm leading-relaxed mb-5 line-clamp-4">
+                  <p className="text-slate-600 dark:text-slate-300 text-sm leading-relaxed mb-5 line-clamp-4">
                     {project.description}
                   </p>
                   <div className="flex flex-wrap gap-2">
                     {project.tags.map((tag) => (
                       <span
                         key={tag}
-                        className="px-2.5 py-1 text-xs font-medium rounded-lg bg-slate-200 dark:bg-slate-800/80 text-slate-800 dark:text-slate-100 border border-slate-200 dark:border-slate-700/50"
+                        className="px-2.5 py-1 text-xs font-medium rounded-lg bg-slate-200 dark:bg-slate-800/80 text-slate-800 dark:text-slate-300 border border-slate-200 dark:border-slate-700/50"
                       >
                         {tag}
                       </span>

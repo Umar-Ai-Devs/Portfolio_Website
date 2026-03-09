@@ -48,7 +48,7 @@ function SkillRow({
           <div className="p-2 rounded-lg bg-slate-100 dark:bg-slate-800/80 border border-slate-200 dark:border-white/10 text-cyan-600 dark:text-cyan-400 group-hover:border-cyan-500/40 group-hover:shadow-[0_0_15px_rgba(34,211,238,0.2)] transition-all duration-300">
             <Icon className="w-5 h-5" />
           </div>
-          <span className="font-medium text-slate-800 dark:text-slate-100">{name}</span>
+          <span className="font-medium text-dark-mode">{name}</span>
         </div>
         <span className="text-sm text-slate-600 dark:text-slate-300 tabular-nums">{level}%</span>
       </div>
